@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    padding: 15px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.historyWrap {
+    background: #dddddd;
+    transition: all 0.5s ease-in-out;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        margin-top: 15px;
+        transition: none;
+    }
+    .locationName {
+        display: flex;
+        margin-bottom: 10px
+    }
+    p {
+        margin-left: 5px;
+    }
+}
